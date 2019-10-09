@@ -1,0 +1,117 @@
+/* 
+filename: [ 
+author: [Hams] 
+created: [20/03/19] 
+last modified: [enter date] 
+description: [html files it refers to assign1] */ 
+
+html {
+	font-family: arial, sans-serif;
+	background: url('images/BG.png') no-repeat center center fixed;
+
+	font-family: arial, sans-serif;
+}
+
+
+#logo{ 
+	max-width: 100%; 
+}
+
+
+
+nav a {
+	color: green;
+	text-decoration: none;
+	padding: 0.2em 0.6em;
+	border: 4px solid #ccc;
+
+}
+
+
+/* pseudo */
+.menu:hover {
+	background-color: #F5F5F5;
+	border-color: #008000;
+}
+
+aside{
+	border: 4px inset #008000;
+	border-radius: 14px;
+	margin: 1em;
+	padding: 1em;
+	width: 25%;
+	background-color: #F5F5F5;
+	float: right;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	
+}
+
+
+
+
+footer {
+	text-align: center;
+
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+
+}
+
+ dt {
+    float: left;
+    width: 100px;
+    font-weight: bold;
+ 
+  }
+
+#iPhoto {
+  	float: right;
+  border: 5px solid #008000;
+}
+
+#timetable{
+	margin: 0 auto;
+	border: 1px solid #008000;
+
+}
+
+th{
+
+	text-align: center;
+	font-weight: bold;
+	background-color: #F5F5F5;
+	width: 100px;
+	
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+	text-align: center;
+	background-color: #F5F5F5;
+}
+
+
+h1 {
+  font: small-caps normal 35px arial, sans-serif;
+}
+
+
+.melb{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2, h3{
+	color: green;
+}
+
+
+
+
+
+
+/*ref: https://css-tricks.com*/
